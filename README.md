@@ -12,7 +12,7 @@ composer install
 
 ## Npm
 ```bash
-npm install && npm run watch
+npm install && npm run production
 ```
 
 ## Migration with seed data
@@ -25,6 +25,13 @@ php artisan migrate --seed
 Login: test@example.com
 Password: secret
 ```
+
+## test
+```
+vendor/bin/phpunit
+```
+
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
