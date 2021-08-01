@@ -14,3 +14,4 @@ require('./bootstrap');
 
 // require('./components/Example');
 require('./components/Caffeine');
+require('./components/Another');

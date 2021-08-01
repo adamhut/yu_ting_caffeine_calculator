@@ -104,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-
+                <div id="another" data-count="2" data-title="Some Title" data-users="{{$users}}"></div>
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
@@ -132,5 +132,7 @@
                 </div>
             </div>
         </div>
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </body>
 </html>

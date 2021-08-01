@@ -18,6 +18,9 @@ use App\Http\Controllers\UserDrinksContrller;
 
 Auth::routes();
 
+Route::get('/welcome', function(){
+    return view('welcome',['users'=> \App\Models\User::all() ]);
+});
 Route::redirect('/', '/login', 301);
 
 Route::group(['auth'],function(){
